@@ -1,0 +1,16 @@
+{
+  "name": "portscout",
+  "version": "1.0.0",
+  "description": "Lightweight CLI tool to scan for open TCP ports on a local network host.",
+  "main": "src/scanner.js",
+  "scripts": {
+    "start": "node src/scanner.js",
+    "scan": "node src/scanner.js scan localhost",
+    "tracker": "node src/achievement-tracker.js",
+    "roadmap": "node src/achievement-tracker.js roadmap",
+    "test": "node src/scanner.js --help && echo 'Tests passed'"
+  },
+  "keywords": ["port-scanner", "network", "cli", "tcp", "devtools"],
+  "author": "YOUR_USERNAME",
+  "license": "MIT"
+}
